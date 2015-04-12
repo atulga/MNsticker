@@ -1,2 +1,0 @@
-# MNsticker
-Mongolian stickers
