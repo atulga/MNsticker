@@ -1,24 +1,27 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Getting Started Extension's Popup</title>
-    <style>
-      body {
-        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
-        font-size: 100%;
-      }
-      #status {
-        white-space: pre;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        max-width: 400px;
-      }
-    </style>
-    <script src="popup.js"></script>
-  </head>
-  <body>
-    <div id="status"></div>
-    <img id="image-result" hidden>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+</head>
+<body style='width: 500px; height: 300px'>
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-md-4 col-xs-4 col-lg-4">
+        <img src="http://gallery.raccoonfink.com/d/7003-2/alien-head-128x128.png" alt="" class="img-responsive">
+      </div>
+      <div class="col-md-4 col-xs-4 col-lg-4">
+        <img src="http://gallery.raccoonfink.com/d/7003-2/alien-head-128x128.png" alt="" class="img-responsive">
+      </div>
+      <div class="col-md-4 col-xs-4 col-lg-4">
+        <img src="http://gallery.raccoonfink.com/d/7003-2/alien-head-128x128.png" alt="" class="img-responsive">
+      </div>
+    </div>
+  </div>
+  <div id="status"></div>
+  <img id="image-result" hidden>
+  <script src="popup.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
 </html>
-
